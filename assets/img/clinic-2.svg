@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 480 360" role="img" aria-label="Close-up illustration of a platform tennis paddle and ball on the court surface.">
+  <!-- PHOTO SLOT: replace with assets/img/clinic-2.jpg (4:3) -->
+  <rect width="480" height="360" fill="#0B2545"/>
+  <rect x="0" y="220" width="480" height="140" fill="#1F7A4D"/>
+  <line x1="0" y1="220" x2="480" y2="220" stroke="#EFE7D2" stroke-width="4" opacity="0.7"/>
+  <g transform="translate(240,150) rotate(-18)">
+    <ellipse cx="0" cy="0" rx="70" ry="50" fill="none" stroke="#E8B84B" stroke-width="10"/>
+    <g stroke="#E8B84B" stroke-width="1.4" opacity="0.6">
+      <line x1="-55" y1="-10" x2="55" y2="-10"/>
+      <line x1="-55" y1="10" x2="55" y2="10"/>
+      <line x1="-55" y1="30" x2="55" y2="30"/>
+      <line x1="-55" y1="-30" x2="55" y2="-30"/>
+      <line x1="-10" y1="-48" x2="-10" y2="48"/>
+      <line x1="10" y1="-48" x2="10" y2="48"/>
+      <line x1="-30" y1="-45" x2="-30" y2="45"/>
+      <line x1="30" y1="-45" x2="30" y2="45"/>
+    </g>
+    <rect x="-14" y="45" width="28" height="70" rx="10" fill="#E8B84B"/>
+  </g>
+  <circle cx="130" cy="260" r="16" fill="#fff"/>
+  <circle cx="370" cy="290" r="12" fill="#fff" opacity="0.8"/>
+</svg>
