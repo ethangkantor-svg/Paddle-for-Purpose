@@ -955,6 +955,19 @@ section {
   }
 }
 
+.stat-card-single {
+  grid-template-columns: 1fr;
+  text-align: center;
+}
+
+.stat-card-single .big-stat {
+  align-items: center;
+}
+
+.stat-card-single .big-stat .num {
+  font-size: clamp(3.4rem, 9vw, 5.2rem);
+}
+
 .region-row {
   margin-top: 2rem;
   display: flex;
@@ -983,14 +996,18 @@ section {
 /* ---------- Impact grid ---------- */
 .impact-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: 1fr;
   gap: 20px;
   margin-top: 2.5rem;
+  max-width: 640px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-@media (min-width: 820px) {
+@media (min-width: 620px) {
   .impact-grid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    max-width: none;
   }
 }
 
