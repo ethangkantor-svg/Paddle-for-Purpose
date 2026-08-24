@@ -1,8 +1,8 @@
 # Paddle for Purpose
 
 A one-page site telling the story of a youth platform tennis philanthropy
-project: three clinics for 50 middle schoolers, co-run with the #1 ranked
-platform tennis player in the country, that raised $3,000 — reinvested
+project: three clinics for over 120 middle schoolers, co-run with the #1
+ranked platform tennis player in the country, that raised $7,000 — reinvested
 through Kiva into 17 microloans for sustainable, low-plastic farming, and
 ultimately donated to [water.org](https://water.org).
 
