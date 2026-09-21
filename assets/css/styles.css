@@ -685,6 +685,14 @@ section {
   grid-column: 1 / -1;
 }
 
+.photo-grid-2 {
+  grid-template-columns: 1fr;
+}
+
+.photo-grid-2 .photo-tile {
+  aspect-ratio: 16 / 10;
+}
+
 .photo-tile {
   border-radius: var(--radius);
   overflow: hidden;

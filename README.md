@@ -12,7 +12,7 @@ No build step, no dependencies. It's plain HTML/CSS/JS.
 index.html                  the whole page
 assets/css/styles.css       design tokens + all styles
 assets/js/main.js           nav state, scroll reveals, count-up stats
-assets/img/                 original SVG art (see "Swapping in real photos" below)
+assets/img/                 clinic photos + SVG art (see "Swapping in real photos" below)
 .github/workflows/pages.yml GitHub Pages deploy
 ```
 
@@ -26,20 +26,19 @@ then open `http://localhost:8000`.
 
 ## Swapping in real photos
 
-Every illustration stands in for a real photo and is marked with an HTML
-comment right above it, e.g.:
+The clinic tiles in `index.html` already use real photos
+(`assets/img/clinic-photo-1.webp`, `clinic-photo-2.webp`). The hero
+background still stands in with an original SVG illustration
+(`.hero-media img` in `index.html`, currently `assets/img/hero-court.svg`),
+noted inside that file as a placeholder pending a real photo:
 
 ```html
-<!-- PHOTO SLOT: replace with a real clinic photo, assets/img/clinic-photo-1.jpg -->
-<img src="assets/img/clinic-1.svg" alt="..." />
+<img src="assets/img/hero-court.svg" alt="" />
 ```
 
-To use a real photo, drop the file into `assets/img/` and change the `src`
-(and the `alt` text) on that one `<img>` tag. No other changes needed.
-
-- **Hero background** (`.hero-media img` in `index.html`): wide landscape,
-  ≥1920px, platform tennis court at dusk/night in winter.
-- **Clinic tiles**: 4:3, ≥1200px wide, showing the clinics in action.
+To use a real photo there, drop the file into `assets/img/` and change the
+`src` (and `alt` text) on that `<img>` tag — wide landscape, ≥1920px,
+platform tennis court at dusk/night in winter. No other changes needed.
 
 ## Editing the numbers / copy
 
